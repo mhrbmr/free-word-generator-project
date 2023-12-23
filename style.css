@@ -37,10 +37,23 @@ main {
 .main-button {
   background-image: linear-gradient(to bottom, #e4e4e4, #f7f7f7);
   border: 1px solid black;
+
+  -webkit-box-shadow: 5px 10px 58px -10px rgba(0,0,0,0.46);
+  -moz-box-shadow: 5px 10px 58px -10px rgba(0,0,0,0.46);
+  box-shadow: 5px 10px 58px -10px rgba(0,0,0,0.46);
+  
   color: black;
   font-size: 1rem;
   padding: 0;
   padding: .8em;
+}
+
+.main-button:hover {
+  cursor: pointer
+}
+
+.main-button:active {
+  transform: scale(.99)
 }
 
 .main-ad {
@@ -66,4 +79,3 @@ main {
     font-size: 1.7rem;
   }
 }
-
