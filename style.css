@@ -53,7 +53,7 @@ main {
 }
 
 .main-button:active {
-  transform: scale(.99)
+  transform: scale(.96)
 }
 
 .main-ad {
