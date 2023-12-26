@@ -9,7 +9,7 @@ async function generateMyWord() {
 
   if (wordInfo.title === "No Definitions Found") {
     document.getElementById("definition").innerHTML = "Sorry, no definition found for this word via dictionaryapi.dev";
-    document.getElementById("definition").style.color = "red";
+    document.getElementById("definition").style.color = "tomato";
   } else {
     const meaning = await wordInfo[0].meanings[0].definitions[0].definition;
     document.getElementById("definition").style.color = "black";
