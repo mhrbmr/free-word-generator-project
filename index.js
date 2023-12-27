@@ -15,6 +15,4 @@ async function generateMyWord() {
     document.getElementById("definition").style.color = "black";
     document.getElementById("definition").innerHTML = meaning;
   }
-  
-  document.getElementById('word-wrapper').style.display = "block";
 }
