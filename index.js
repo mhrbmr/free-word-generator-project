@@ -10,6 +10,8 @@ async function generateMyWord() {
   if (wordInfo.title === "No Definitions Found") {
     document.getElementById("definition").innerHTML = "Sorry, no definition found for this word via dictionaryapi.dev";
     document.getElementById("definition").style.color = "firebrick";
+    document.getElementById("sourc-url").href = 'https://en.wiktionary.org/wiki/';
+    document.getElementById("sourc-url").innerHTML = 'https://en.wiktionary.org/wiki/';
   } else {
     const meaning = await wordInfo[0].meanings[0].definitions[0].definition;
     document.getElementById("definition").style.color = "black";
