@@ -14,5 +14,7 @@ async function generateMyWord() {
     const meaning = await wordInfo[0].meanings[0].definitions[0].definition;
     document.getElementById("definition").style.color = "black";
     document.getElementById("definition").innerHTML = meaning;
+    document.getElementById("sourc-url").href = `https://en.wiktionary.org/wiki/${randomWord}`;
+    document.getElementById("sourc-url").innerHTML = `https://en.wiktionary.org/wiki/${randomWord}`;
   }
 }
