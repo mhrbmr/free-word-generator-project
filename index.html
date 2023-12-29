@@ -16,7 +16,19 @@
   </head>
   </head>
   <body>
-    <main>
+    <main id="agreement">
+    <h1 class="main-title">Generate a random word:</h1>
+    <div class="main-word-definition-wrapper">
+      <h2 class="main-word">Terms And Conditions</h2>
+      <p class="main-definition">Welcome to the free online random word generator. To get started please
+        review our <a href="terms.html">terms and conditions</a> and our <a href="privacypolicy.html">privacy
+          policy.</a> To confirm you have read the terms and conditions and would like to proceed according to the
+        terms, please click the button below.</p>
+    </div>
+    <button class="main-button" onclick="agree()">I Agree </button>
+    </main>
+    
+    <main style="display: none;" id="main">
         <h1 class="main-title">Generate a random word:</h1>
         <div class="main-word-definition-wrapper" id="word-wrapper">
           <h2 class="main-word" id="word">Let's get started</h2>
