@@ -1,3 +1,8 @@
+function agree() {
+  document.getElementById("agreement").style.display = "none";
+  document.getElementById("main").style.display = "block";
+}
+
 async function generateMyWord() {
   const fetchRandomWord = await fetch('https://random-word-api.vercel.app/api?words=1');
   const randomWord = await fetchRandomWord.json();
