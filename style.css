@@ -69,10 +69,10 @@ main {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1300px) {
   main {
-    padding-left: 16em;
-    padding-right: 16em;
+    padding-left: 18em;
+    padding-right: 18em;
   }
 }
 
