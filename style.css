@@ -33,6 +33,30 @@ main {
   margin-top: 0;
 }
 
+.agree-button {
+  background-image: linear-gradient(to bottom, #e4e4e4, #f7f7f7);
+  border: 1px solid black;
+
+  -webkit-box-shadow: 5px 10px 58px -10px rgba(0,0,0,0.46);
+  -moz-box-shadow: 5px 10px 58px -10px rgba(0,0,0,0.46);
+  box-shadow: 5px 10px 58px -10px rgba(0,0,0,0.46);
+
+  color: black;
+  font-size: 1rem;
+  padding: 0;
+  padding: .8em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.agree-button:hover {
+  cursor: pointer
+}
+
+.agree-button:active {
+  transform: scale(.96)
+}
+
 .main-button {
   background-image: linear-gradient(to bottom, #e4e4e4, #f7f7f7);
   border: 1px solid black;
