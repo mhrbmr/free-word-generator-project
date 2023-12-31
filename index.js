@@ -3,6 +3,16 @@ function agree() {
   document.getElementById("main").style.display = "block";
 }
 
+function showUseCases() {
+  document.getElementById("main").style.display = "none";
+  document.getElementById("use-cases").style.display = "block";
+}
+
+function hideUseCases() {
+  document.getElementById("use-cases").style.display = "none";
+  document.getElementById("main").style.display = "block";
+}
+
 async function generateMyWord() {
   const fetchRandomWord = await fetch('https://random-word-api.vercel.app/api?words=1');
   const randomWord = await fetchRandomWord.json();
