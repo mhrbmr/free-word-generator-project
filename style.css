@@ -50,11 +50,11 @@ main {
 }
 
 .agree-button:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .agree-button:active {
-  transform: scale(.96)
+  transform: scale(.96);
 }
 
 .main-button {
@@ -72,11 +72,11 @@ main {
 }
 
 .main-button:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .main-button:active {
-  transform: scale(.96)
+  transform: scale(.96);
 }
 
 .main-ad {
