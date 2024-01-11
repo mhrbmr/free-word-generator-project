@@ -79,12 +79,6 @@ main {
   transform: scale(.96);
 }
 
-.main-ad {
-  border: 1px dashed black;
-  padding: 1em;
-  margin-top: 1em;
-}
-
 
 @media (min-width: 900px) {
   main {
