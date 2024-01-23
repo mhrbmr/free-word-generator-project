@@ -17,7 +17,7 @@ async function generateMyWord() {
   const fetchRandomWord = await fetch('https://random-word-api.vercel.app/api?words=1');
   const randomWord = await fetchRandomWord.json();
 
-  # document.getElementById("word").innerHTML = randomWord;
+  // document.getElementById("word").innerHTML = randomWord;
 
   const fetchWordInfo = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${randomWord}`);
   const wordInfo = await fetchWordInfo.json();
