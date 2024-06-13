@@ -14,8 +14,8 @@ function hideUseCases() {
 }
 
 async function generateMyWord() {
-  await document.getElementById("word").innerHTML = "Loading...";
-  await document.getElementById("definition").innerHTML = "Please wait.";
+  document.getElementById("word").innerHTML = "Loading...";
+  document.getElementById("definition").innerHTML = "Please wait.";
   
   const fetchRandomWord = await fetch('https://random-word-api.vercel.app/api?words=1');
   const randomWord = await fetchRandomWord.json();
