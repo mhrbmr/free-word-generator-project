@@ -14,6 +14,7 @@ function hideUseCases() {
 }
 
 async function generateMyWord() {
+  document.getElementById("definition").style = "color:black";
   document.getElementById("word").innerHTML = "Loading...";
   document.getElementById("definition").innerHTML = "Please wait.";
   
